@@ -1,0 +1,103 @@
+Q2. When should one use Maven?
+
+Maven is a tool that can now be used for building and managing any Java-based project. 
+
+It makes the day-to-day work of Java developers easier and generally help with the 
+comprehension of any Java-based project.
+
+Maven is a powerful project management tool that is based on POM (project object model). 
+It is used for projects build, dependency and documentation.
+
+
+Q3. Explain the core concepts of Maven.
+
+Maven's primary goal is to allow a developer to comprehend the complete state of a development effort 
+in the shortest period of time. 
+
+In order to attain this goal, Maven deals with several areas of concern:
+
+Making the build process easy
+Providing a uniform build system 
+Providing quality project information 
+Encouraging better development practices
+
+
+Q4. What elements are used for creating a pom.xml file?
+
+POM is an acronym for Project Object Model. The pom.xml file contains information of 
+project and configuration information for the maven to build the project such as dependencies, 
+build directory, source directory, test source directory, plugin, goals etc.
+
+Maven reads the pom.xml file, then executes the goal.
+Before maven 2, it was named as project.xml file. But, since maven 2 (also in maven 3), it is renamed as pom.xml.
+
+Elements of maven pom.xml file
+F
+or creating the simple pom.xml file, you need to have following elements:
+
+project
+It is the root element of pom.xml file.
+  
+  
+modelVersion
+It is the sub element of project. It specifies the modelVersion. It should be set to 4.0.0.
+   
+groupId
+It is the sub element of project. It specifies the id for the project group.
+ 
+  
+artifactId
+It is the sub element of project. It specifies the id for the artifact (project). An artifact is something that is either produced or used by a project. Examples of artifacts produced by Maven for a project include: JARs, source and binary distributions, and WARs.
+     
+version
+It is the sub element of project. It specifies the version of the artifact under given group.
+
+
+Q5. What are the different phases of the default life cycle?
+
+maven build life cycle contains diff phases:
+
+1. validate: - in this phase it will verify the project diectory structure is valid or
+not. and it has pom.xml file is there or not.
+
+2.compile: maven compiles all the source code of the project by downloading and adding
+requied jar files in the classpath.
+
+3.test-compile: if we have written any unit test cases those code will be compiled.
+
+4.test : maven will run all the test cases and it will show how many test cases are
+success and how many fails.
+
+5.package : maven will bundle our java code into a jar file inside 'target' folder.
+
+6.install : that jar file in step 5 will be stored in the localrepo.
+
+7.deploy : maven stores the application jar file to the central repo.
+
+8.clean : here maven will delete and remove all the files that are generated in previous
+build. this phase is an isolated phase.
+
+
+Q6.What are the different types of Maven repositories? Discuss.
+
+A maven repository is a directory of packaged JAR file with pom.xml file. Maven searches for dependencies in
+the repositories. There are 3 types of maven repository: 1. Local Repository
+2. Central Repository
+3. Remote Repository
+Maven searches for the dependencies in the following order:
+Local repository then Central repository then Remote repository.
+
+
+1) Maven Local Repository
+Maven local repository is located in your local system. It is created by the maven when you run any maven
+command.
+
+
+2) Maven Central Repository
+Maven central repository is located on the web. It has been created by the apache maven community itself. 
+The path of central repository is: http://repo1.maven.org/maven2/.
+The central repository contains a lot of common libraries that can be viewed. 
+
+3) Maven Remote Repository
+Maven remote repository is located on the web. Most of libraries can be missing from the central repository
+such as JBoss library etc, so we need to define remote repository in pom.xml file.
