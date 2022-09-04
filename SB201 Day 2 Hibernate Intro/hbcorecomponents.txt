@@ -1,0 +1,7 @@
+Q6 what is Core Components of Hibernate explain
+A6.
+1) Configuration
+2) Session Factory
+3) Session
+4)Transaction:
+5) Query

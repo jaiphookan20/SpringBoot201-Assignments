@@ -1,0 +1,21 @@
+Q1.Explain Layared Architecture in Business application
+A1.
+There is total three layers in business application
+1)Data Access layer
+2) Business logic Layer/Service Layer
+3) Presentation Layer/UI layer
+
+1) Data Access Layer:
+In this layer some of the java classes and methods are mean to do CRUD operation with database
+server.JDBC and DAO pattern are the example of this.In that we call a method to perform CRUD
+operation on our sql database.
+
+2) Business Logic Layer:
+As the name suggests Programable implementation of Business services is known as Business 
+Logic Layer.for example in Bank-project there is some methods that are meant to implements to 
+calculate the interests on that amount so this is one type of business logic.
+
+3)Presentation Layer:
+As in the name mentioned Presentation it means there is some classes in java that shows the 
+input screen and also output screen.It is interacting with the end user.
+

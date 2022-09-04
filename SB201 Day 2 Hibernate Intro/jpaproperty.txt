@@ -1,0 +1,14 @@
+Q4 Explain the properties of JPA(Java Persistence API)
+A4.
+
+This is the properties of JPA that is drawbacks of JDBC. 
+
+Persistability :A java object is Persistent if we can access date object from database
+
+
+Persistent Identity : In java every object is unique.So object contains unique identity.
+so that object stores in database represented Persistent Identity.
+
+Transactionality : We can perform various operations such as create, delete, update.
+
+Granuality : In JPA we can store objects directly to database

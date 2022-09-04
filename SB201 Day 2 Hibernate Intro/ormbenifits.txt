@@ -1,0 +1,11 @@
+Q5. Why to use ORM and What are the benefits of ORM?
+A5.
+ORM means object relation mapping.It means we can map our object to database directly.
+Using ORM software we can directly stores object in database.
+
+these are the benefits of using ORM software.
+
+-> ORM is database independent.We can write all the logic in from of our java object so that logic will be
+    database independent.so we can reuse that code in different database software.
+
+-> ORM software takes object as input and also give object as output so we dont need to convert it into atomic value.

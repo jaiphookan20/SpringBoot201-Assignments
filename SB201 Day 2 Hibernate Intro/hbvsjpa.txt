@@ -1,0 +1,8 @@
+Q3. Differentiate between Hibernate and JPA
+A3.
+JPA is a specifaction given by oracle corp,to devlope any ORM software.
+Hibernate is a implementation of JPA.Hibernate is one the famous implementation
+of JPA.Hibernate has is own methods and classes too.
+Hibernate is ORM based framework software.
+JPA api belongs to 'javax.persistence' package and Hibernate api belongs to
+ 'org.hibernate' package

@@ -1,0 +1,16 @@
+Q2.limitation of JDBC based persistence logic over JPA
+A2.
+1) In JDBC we can't store java objects directely to database table.we have to convert that object
+into simple value to store it in database table.
+
+2)Here JDBC depends on database software because the query we write in JDBC depends on that
+software so we cannot use that code in different database software.
+
+3) There is lots of checked exception to handle
+
+4) Some repetation of same code(we reduces that code using DAO pattern).
+
+5) ResultSet object in JDBC we can't transfer from one layer to another layer.
+also we need to structure ResultSet object to retrive our data
+
+6) there is no caching and transaction supports in JDBC
