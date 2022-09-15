@@ -1,0 +1,16 @@
+Q1/- What is the J2EE, list out some of the Application Server names.
+
+A1.
+J2EE means java Enterprise Edition.
+To computrised service of large scale business we need to use J2EE.
+J2EE is a specification while implementation of J2EE is Application server.
+
+Application server names are
+
+Websphere server from IBM
+
+Weblogic server  from Oracle 
+
+Glassfish server  from Oracle 
+
+JBOSS server from RedHat

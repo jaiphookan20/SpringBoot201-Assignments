@@ -1,0 +1,29 @@
+Q4/- Write Short notes on how the Spring framework evolves.
+
+A4.As we know that to build Enterprise Application we have to do many repeated things
+and that will be very much burden on devloper.
+
+to reduce this burden so that devloper can focus on main service logic there is technology 
+comes which name is EJB.
+
+EJB can able to thode middlewere services so that devloper can focus on their business logic.
+
+but this EJB components are very weight and required too many storage to build.
+and also very much complex.because its have too many interfaces we have to implement
+in our service logic whether we want it or not.
+
+so EJB is very much complex thing and also very heavy weight too.
+
+too overcome this problem in 2004 Johnson created Spring Framework.
+
+Spring is framework which reduces the work of frameworks too.it's lightweight and we can
+use it in pojo class too
+
+
+
+
+
+
+
+
+

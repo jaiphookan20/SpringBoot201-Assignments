@@ -1,0 +1,10 @@
+Q2/- What is the difference between an Application Server and a Web server?
+
+->Web server is part of Application server software in other word web server is child
+and Application server software is parent.
+
+->Application server software have EJB container and servlet container where 
+ webserver have only servlet container.
+
+->Application server software can communicate with multiple protocol like
+http,ftp  etc. but Webserver communicate with http only.
